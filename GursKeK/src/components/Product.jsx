@@ -170,7 +170,7 @@ const Product = () => {
 
               <div className="cake-modal-image shadow p-4">
                 <img
-                  src={`./public${selectedCake?.additionalImages[currentImageIndex]}`}
+                  src={`./${selectedCake?.additionalImages[currentImageIndex]}`}
                   alt={selectedCake?.name}
                   style={{
                     width: "100%",

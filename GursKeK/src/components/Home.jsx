@@ -13,25 +13,25 @@ const Home = () => {
           name: "Chocolate Cake",
           description: "Rich Chocolate + Hazelnut",
           price: "Rs. 500",
-          imageUrl: "./public/cake 11.png"
+          imageUrl: "./cake 11.png"
         },
         {
           name: "Strawberry Cake",
           description: "Strawberry + Cream Cheese",
           price: "Rs. 600",
-          imageUrl: "./public/cake10.png"
+          imageUrl: "./cake10.png"
         },
         {
           name: "Roseberry Brownie",
           description: "Rose + Vanilla",
           price: "Rs. 100",
-          imageUrl: "./public/cake8.png"
+          imageUrl: "./cake8.png"
         },
         {
           name: "Lemon Zest Cake",
           description: "Lemon + Coconut",
           price: "Rs. 550",
-          imageUrl: "./public/New Project.png"
+          imageUrl: "./New Project.png"
         }
       ];
 
@@ -45,7 +45,7 @@ const Home = () => {
             style={{ borderRight: "1px solid #491607" }}
           >
             <div className="location-div">
-              <img src="./public/cellphone.png"></img>
+              <img src="./cellphone.png"></img>
             </div>
             <div>
               <h5>VISIT US</h5>
@@ -63,12 +63,12 @@ const Home = () => {
           </div>
 
           <div className="w-100 logo-div d-flex align-items-center justify-content-center">
-            <img src="./public/Cake and Dessert.png"></img>
+            <img src="./Cake and Dessert.png"></img>
           </div>
 
           <div className="w-75 mobile-firstsearch">
             <div className="location-div">
-              <img src="./public/searching.png"></img>
+              <img src="./searching.png"></img>
             </div>
             <div>
               <h5>SEARCH...</h5>
@@ -81,7 +81,7 @@ const Home = () => {
             style={{ borderLeft: "1px solid #491607" }}
           >
             <div className="location-div">
-              <img src="./public/shopping-bag.png"></img>
+              <img src="./shopping-bag.png"></img>
             </div>
             <div>
               <h5>MY CART</h5>
@@ -109,7 +109,7 @@ const Home = () => {
         </Navbar>
 
           <div className="second-section-image">
-            <img src="./public/cake-image.jpg"></img>
+            <img src="./cake-image.jpg"></img>
           </div>
         </Container>
       </section>
@@ -131,7 +131,7 @@ const Home = () => {
         </Navbar>
 
         <div className="second-section-image">
-          <img src="./public/cake-image.jpg" alt="Cake" />
+          <img src=".//cake-image.jpg" alt="Cake" />
         </div>
       </Container>
     </section> */}
@@ -177,7 +177,7 @@ const Home = () => {
 
             <video
               width="100%"
-              src="./public/cake-vedio.mp4"
+              src="./cake-vedio.mp4"
               type="video/mp4"
               controls
               loop
@@ -229,7 +229,7 @@ const Home = () => {
             <div className="d-flex align-items-center justify-content-center w-100 mt-4 visit-usdiv">
               <div className="w-100 text-center">
                 <div className="location-div d-flex justify-content-center mb-3">
-                  <img src="./public/cellphone.png" height={80}></img>
+                  <img src="./cellphone.png" height={80}></img>
                 </div>
                 <div>
                   <h5>VISIT US</h5>
@@ -252,7 +252,7 @@ const Home = () => {
 
               <div className="w-100 text-center">
                 <div className="location-div d-flex justify-content-center mb-3">
-                  <img src="./public/food-truck.png" height={80}></img>
+                  <img src="./food-truck.png" height={80}></img>
                 </div>
                 <div>
                   <h5>SHOP HOURS</h5>
@@ -269,7 +269,7 @@ const Home = () => {
       <section className="footer">
         <Container className="">
           <div className="w-100 logo-div d-flex align-items-center justify-content-center">
-            <img src="./public/Cake and Dessert.png"></img>
+            <img src="./Cake and Dessert.png"></img>
           </div>
 
           <div className="w-100 d-flex align-items-center justify-content-center column-gap-3">
