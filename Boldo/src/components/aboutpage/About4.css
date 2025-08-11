@@ -1,0 +1,51 @@
+.about4page{
+    padding-top: 84px;
+}
+
+
+.about4-page{
+    width: 800px;
+    height: 384px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.about4-one{
+    /* border: 1px solid blue; */
+    height: 184px;
+    width: 800px;
+
+}
+
+.about4-two{
+    /* border: 1px solid orange; */
+    height: 168px;
+    width: 799px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: #777777;
+}
+
+.about4-three{
+    /* border: 1px solid green; */
+    height: 32px;
+    width: 92px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: #777777;
+}
+
+.about4-four{
+    font-size: 48px;
+    width: 872px;
+    height: 144px;
+    line-height: 72px;
+    font-family: "Manrope", sans-serif;
+    color: #000000;
+}

@@ -1,0 +1,202 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "ename": "Jon Snow",
+      "email": "jonsnow@gmail.com",
+      "phone": "(665)123-3454",
+      "city": "Africa",
+      "marks": 95
+    },
+    {
+      "id": 2,
+      "ename": "Alam Sho",
+      "email": "alamsho@gmail.com",
+      "phone": "(665)233-9854",
+      "city": "New York",
+      "marks": 65
+    },
+    {
+      "id": 3,
+      "ename": "Than Jho",
+      "email": "thanjho@gmail.com",
+      "phone": "(665)121-5454",
+      "city": "New York",
+      "marks": 45
+    }
+  ],
+  "transaction": [
+    {
+      "id": 1,
+      "ename": "Jon Snow",
+      "email": "jonsnow@gmail.com",
+      "phone": "(665)123-3454",
+      "rupees": "$2000"
+    },
+    {
+      "id": 2,
+      "ename": "Alam Sho",
+      "email": "jonsnow@gmail.com",
+      "phone": "(665)123-3454",
+      "rupees": "$6500"
+    },
+    {
+      "id": 3,
+      "ename": "Than Jho",
+      "email": "thanjho@gmail.com",
+      "phone": "(665)123-3454",
+      "rupees": "$3000"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "John",
+      "age": "23",
+      "phonenumber": "+91876543289",
+      "email": "gfd@1234",
+      "address": "punjab",
+      "city": "india"
+    },
+    {
+      "id": "2",
+      "name": "alam",
+      "age": "23",
+      "phonenumber": "+76543243789",
+      "email": "hgfds@1234",
+      "address": "delhi",
+      "city": "india"
+    },
+    {
+      "id": "3",
+      "name": "aksh",
+      "age": "23",
+      "phonenumber": "+8765436789",
+      "email": "76rdes@1234",
+      "address": "punjab",
+      "city": "india"
+    },
+    {
+      "id": "4",
+      "name": "Json",
+      "age": "23",
+      "phonenumber": "+9543234789",
+      "email": "6tre@1234",
+      "address": "delhi",
+      "city": "india"
+    },
+    {
+      "id": "5",
+      "name": "turn",
+      "age": "23",
+      "phonenumber": "+9123543289",
+      "email": "uytr@1234",
+      "address": "punjab",
+      "city": "india"
+    },
+    {
+      "id": "6",
+      "name": "Jytre",
+      "age": "23",
+      "phonenumber": "+9123765489",
+      "email": "jytr@1234",
+      "address": "delhi",
+      "city": "india"
+    }
+  ],
+  "categories": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "April",
+    "May",
+    "June",
+    "July",
+    "Aug",
+    "Sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "series": [
+    {
+      "name": "series-1",
+      "data": [
+        30,
+        40,
+        25,
+        50,
+        49,
+        21,
+        70,
+        51,
+        34,
+        45,
+        30,
+        20
+      ],
+      "color": "black"
+    },
+    {
+      "name": "series-2",
+      "data": [
+        23,
+        12,
+        54,
+        61,
+        32,
+        56,
+        81,
+        19
+      ]
+    },
+    {
+      "name": "series-3",
+      "data": [
+        24,
+        20,
+        5,
+        75,
+        42,
+        79,
+        72,
+        35
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "id": "30a9",
+      "ename": "",
+      "email": "gurs@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "3d29",
+      "ename": "",
+      "email": "gurs@gmail.com",
+      "password": "23"
+    },
+    {
+      "id": "6148",
+      "ename": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "0363",
+      "ename": "",
+      "email": "gurs@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "b838",
+      "ename": "",
+      "email": "gurs@gmail.com",
+      "password": "1234"
+    }
+  ]
+}

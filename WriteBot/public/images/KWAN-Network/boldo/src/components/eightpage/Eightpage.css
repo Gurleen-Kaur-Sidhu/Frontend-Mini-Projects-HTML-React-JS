@@ -1,0 +1,72 @@
+.eightpage{
+    padding-top: 84px;
+}
+
+.eight-page{
+    width: 1200px;
+    background-color: #0A2640;
+    height: 391px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-page1{
+    width: 716px;
+    height: 247px;
+    /* border: 1px solid red; */
+}
+
+.eight-para2{
+    height: 139px;
+    /* border: 1px solid orange; */
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: "Manrope", sans-serif;
+    color: #ffffff;
+}
+
+.eight-para3{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight-para4{
+    width: 604px;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-seven{
+    width: 370px;
+    height: 56px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+
+}
+
+
+.button2-seven{
+    width: 210px;
+    height: 60px;
+    background-color: #65E4A3;
+    border: #65E4A3;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.button2-seven:hover{
+    background-color: #56c089;
+}

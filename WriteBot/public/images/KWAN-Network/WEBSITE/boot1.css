@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+
+@media(min-width: 500px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media(min-width: 700px){
+    body{
+        background-color: pink;
+    }
+}
+
+@media(min-width: 1200px){
+    body{
+        background-color: red;
+    }
+}

@@ -1,0 +1,14 @@
+.logo{
+    line-height: 1;
+}
+
+/* @media(min-width:1200px){
+    .logo{
+        width:280px;
+    }
+} */
+.logo span{
+    font-size: 26px;
+    font-weight: 700;
+    color: blueviolet;
+}

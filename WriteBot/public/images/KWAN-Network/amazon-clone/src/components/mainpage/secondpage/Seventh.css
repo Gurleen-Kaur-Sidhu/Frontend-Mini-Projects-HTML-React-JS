@@ -1,0 +1,21 @@
+.seven2card{
+    height: 130px;
+}
+.seven4card{
+    height: 45px;
+}
+@media (max-width: 768px) {
+    .sevencard {
+        height: 300px; 
+    }
+    .seven2card{
+        height: 90px;
+    }
+
+}
+@media (min-width: 500px) and (max-width: 1199.98px) { 
+    .seven4card{
+        height: 25px;
+        font-size: 15px;
+    }
+ }

@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.first-section {
+  background-color: #f7f2ee;
+}
+
+.first-section .location-div {
+  height: 50px;
+  width: 50px;
+}
+
+.first-section .location-div img {
+  height: 100%;
+  width: 100%;
+}
+
+.first-section .logo-div {
+  height: 150px;
+  width: 150px;
+}
+
+.first-section .logo-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.second-section {
+  background-color: #f7f2ee;
+  padding: 20px;
+  position: relative;
+}
+
+.second-section-image {
+  height: 550px;
+  width: 100%;
+}
+
+.second-section-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.second-section .navbar {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  background-color: #692e19;
+  border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+.third-section {
+  background-color: #f7f2ee;
+}
+
+.third-section-div {
+  margin: 60px;
+}
+
+.third-section-div h4 {
+  font-family: "Cedarville Cursive", serif;
+  font-size: 55px !important;
+  font-weight: 800 !important;
+  color: #dd7701 !important;
+  text-align: center;
+  position: relative;
+  top: -37px;
+}
+
+.third-section-div button {
+  color: #491607;
+  font-family: "Young Serif", serif;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.third-section-button {
+  padding: 0 110px;
+}
+
+.third-section-button button {
+  background-color: antiquewhite;
+  color: #491607;
+  border: 2px solid #491607;
+  font-family: "Young Serif", serif;
+}
+
+.third-section-button button:hover {
+  background-color: #491607;
+  color: white;
+}
+
+.third-section-button button svg {
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.fourth-section {
+  background-color: #f7f2ee;
+}
+
+.fourth-section .container {
+  padding: 60px;
+}
+
+.fourth-section .pastry-img {
+  height: 100px;
+  width: 100px;
+}
+
+.fourth-section .pastry-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.fourth-section div {
+  padding: 0 100px;
+}
+
+.fourth-section p {
+  color: #692e19;
+}
+
+.fourth-section video {
+  border-radius: 5px;
+}
+
+.fifth-section {
+  background-color: #f7f2ee;
+}
+
+.fifth-section .container {
+  padding: 60px;
+}
+
+.fifth-section .cake-product {
+  height: 120px;
+  width: 100%;
+}
+
+.fifth-section .cake-product img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.fifth-section h6 {
+  text-align: center;
+  font-family: "Young Serif", serif !important;
+  font-size: 20px !important;
+}
+
+.fifth-section .fifth-products-div h4 {
+  font-size: 24px !important;
+}
+
+.fifth-section button {
+  background-color: antiquewhite;
+  border: 1px solid #491607;
+  border-radius: 5px;
+  color: #491607;
+  font-family: "Young Serif", serif;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.cake-card {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.cake-card p {
+  color: #692e19;
+}
+
+.view-buttton svg {
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.view-buttton {
+  background-color: #491607 !important;
+  color: antiquewhite !important;
+}
+
+.footer {
+  background-color: #f7f2ee;
+  padding: 48px;
+}
+
+.footer .logo-div {
+  height: 200px;
+  width: 200px;
+}
+
+.footer .logo-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.social-icon {
+  border: 2px solid #491607;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.social-icon svg {
+  font-size: 26px;
+  color: #692e19;
+}
+
+.footer .nav-link {
+  color: #692e19;
+  font-family: "Merriweather", serif;
+  font-size: 14px !important;
+  padding: 5px 30px;
+  font-weight: 700;
+}
+
+.last-div {
+  border-top: 1px solid #491607;
+  border-bottom: 1px solid #491607;
+  margin: 0px 150px;
+}
+
+.sixth-section {
+  background-color: #f7e0c1;
+}
+
+.sixth-section .container {
+  padding: 40px;
+}
+
+.fifth-section button {
+  background-color: antiquewhite;
+  border: 1px solid #491607;
+  border-radius: 5px;
+  color: #491607;
+  font-family: "Young Serif", serif;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.fifth-section button:hover {
+  background-color: #491607;
+  color: antiquewhite;
+}
+
+.mobile-firstsearch,
+.mobile-firstdate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifth-products-div {
+  margin: 48px 0px;
+}
+
+.fifth-products-div {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 10px;
+
+    align-items: center;
+  }
+
+
+@media (max-width: 1200px) {
+  .third-section-button {
+    padding: 0 60px;
+  }
+
+  .third-section-div h4 {
+    font-size: 40px !important;
+  }
+
+  .fifth-products-div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 10px;
+
+    align-items: center;
+  }
+
+  .fifth-section .cake-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .view-buttton {
+    width: 100%;
+  }
+
+  .footer .nav-link {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+
+  .last-div {
+    margin: 0px 50px;
+  }
+
+  .fourth-section div {
+    padding: 0;
+  }
+
+  .fourth-section .container {
+    padding: 0px;
+  }
+
+  /* .fifth-section button {
+    width: 100%;
+  } */
+}
+
+@media (max-width: 768px) {
+  .second-section-image {
+    height: 300px;
+  }
+
+  .third-section-div h4 {
+    font-size: 35px !important;
+  }
+
+  .third-section-button {
+    padding: 0 30px;
+  }
+
+  .fifth-section .container {
+    padding: 30px;
+  }
+
+  .fifth-products-div {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer .logo-div {
+    height: 150px;
+    width: 150px;
+  }
+
+  .footer .social-icon svg {
+    font-size: 20px;
+  }
+
+  .footer .nav-link {
+    font-size: 12px;
+  }
+
+  .last-div {
+    margin: 0px 20px;
+  }
+
+  .third-section-div {
+    margin: 40px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .third-section-div h4 {
+    font-size: 28px !important;
+  }
+
+  .first-section .logo-div {
+    width: 120px;
+    height: 120px;
+  }
+
+  .footer .logo-div {
+    height: 120px;
+    width: 120px;
+  }
+
+  .fifth-section h6 {
+    font-size: 18px !important;
+  }
+
+  .fifth-products-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer .nav-link {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .mobile-firstsearch,
+  .mobile-firstdate {
+    display: none !important;
+  }
+
+  .mobile-firstlocation {
+    flex-direction: column;
+  }
+
+  h6 {
+    font-size: 10px !important;
+  }
+
+  .last-div {
+    flex-direction: column;
+  }
+
+  .footer {
+    padding: 12px;
+  }
+
+  .fourth-section div {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+
+  .third-section-div h4 {
+    top: -20px;
+  }
+
+  h4 {
+    font-size: 40px !important;
+  }
+
+  .fourth-section .container {
+    padding: 0px;
+  }
+  h2 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+
+  .visit-usdiv {
+    flex-direction: column;
+  }
+
+  .sixth-section .container {
+    padding: 40px 0px;
+  }
+
+  h1 {
+    font-size: 17px !important;
+    line-height: 29px;
+  }
+
+  .third-section-div {
+    margin: 20px 0px;
+  }
+
+  h1 {
+    font-size: 25px !important;
+    line-height: 30px;
+  }
+
+  .third-section-button {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .second-section {
+    padding: 20px 0px;
+  }
+
+  .fifth-products-div {
+    margin: 20px 0px !important;
+  }
+
+  .fifth-section .container {
+    padding: 40px 10px;
+  }
+
+  .fourth-section {
+    padding: 20px 0px;
+  }
+
+  .fifth-products-div {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    column-gap: 10px;
+
+    align-items: center;
+  }
+  .cake-card{
+    margin-right : 0px !important;
+    margin-left : 0px !important;
+
+  }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 768px) { 
+    .sixthdiv{
+        height: 100px;
+        width: 150px;
+
+    }}
+
+
+
+    @media (max-width: 768px) { 
+        .myimg{
+            height: 100px;
+            width: 150px;
+    
+        }}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .my-section{
+            /* border: 1px solid green; */
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            width: 80%;
+            /* border: 1px solid red; */
+            
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .content{
+            grid-column: 1/ span 6;
+            
+        }
+
+        .image{
+            grid-column: 7 / span 6;
+        }
+
+        .image img{
+            height: 400px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .content{
+            grid-column: 1/ span 12;
+            
+        }
+
+        .image{
+            grid-column: 1/ span 12;
+        }
+        }
+            
+       
+
+        
+
+    </style>
+</head>
+<body>
+
+    <section class="my-section">
+        <div class="container">
+
+            <div class="grid-container">
+
+            <div class="content">
+                <h2>Welcome to the page</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ullam ipsum fugit deserunt laboriosam rerum! Omnis asperiores reprehenderit obcaecati officiis, quisquam aliquam laboriosam deleniti.</p>
+
+            </div>
+
+
+            <div class="image">
+
+                <img src="https://designsvalley.com/wp-content/uploads/2023/08/Publication-Date-of-a-Website-1024x576.jpg">
+
+            </div>
+        </div>
+           
+        </div>
+    </section>
+
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+.calendar-section{
+    margin-bottom: 10px;
+    position: fixed;
+    top:140px;
+    margin-right: 20px;
+    height: 100%;
+    margin-left: 580px;
+   
+   
+}
+
+.toggle-sidebar .calendar-section{
+    margin-left: 480px;
+    /* width: 1300px; */
+}

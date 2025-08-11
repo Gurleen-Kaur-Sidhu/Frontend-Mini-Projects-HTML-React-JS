@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .div-1{
+            /* display:flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            width: 100%;
+            height: 100%;
+         }
+           
+         /* .grid-container {
+          display: grid;
+          grid-template-columns:50px 50px 50px 50px;
+          grid-gap: 10px;
+          background-color: #2196F3;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          background-color: rgba(255, 255, 255, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        
+        .item1 {
+          grid-row: 1 / span 2;
+         
+        } */
+
+        .div-4{
+            display: grid;
+            grid-template-columns:auto auto auto ;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+
+        .div-2{
+ 
+            grid-row: 1/ span 2;
+            grid-column: 1/span 4;
+            border: 2px solid red;
+        }
+
+        .div-3{
+        
+            border: 2px solid red;
+            
+        }
+
+
+        .div-7{
+            display: grid;
+            grid-template-columns: 200px 400px;
+            /* border: 2px solid red;  */
+            column-gap: 10px;
+            row-gap: 10px;
+
+        }
+
+        .div-6{
+            border: 2px solid red;
+
+        }
+
+        .div-5{
+            border: 2px solid red;
+            grid-row: 1 /span 3;
+        }
+
+
+        .my-div{
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+
+        .para{
+            grid-column: 1 / span 6;
+            /* grid-column: 1/ span 2; */
+            border: 1px solid green;
+        }
+
+        .image{
+            grid-column: span 6;
+            border: 1px solid blue;
+
+        }
+
+        
+        @media (max-width: 768px) {
+            .para{
+            grid-column: 1/ span 12;
+            
+        }
+
+        .image{
+            grid-column: 1/ span 12;
+        }
+        }
+            
+       
+
+        
+    </style>
+</head>
+<body>
+    
+
+
+
+<!-- 
+
+    <div class="div-1">
+        <div class="grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>  
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+            <div class="item7">7</div>
+          </div>
+
+    </div> -->
+
+
+
+    <div class="div-1">
+        <div>
+        <h1>Grid system</h1>
+        <div class="div-4">
+
+            <div class="div-2">11111111111</div>
+            <div class="div-3">22222222222</div>
+            <div class="div-3">33333333333</div>  
+            <div class="div-3">4444444444</div>
+            <div class="div-3">55555555555</div>
+
+        
+        </div>
+ 
+    </div>
+    </div>
+
+
+    <!-- <div class="div-1">
+        <div>
+        <h1>Grid system</h1>
+        <div class="div-7">
+
+            <div class="div-5">11111111111</div>
+            <div class="div-6">22222222222</div>
+            <div class="div-6">33333333333</div>  
+            <div class="div-6">4444444444</div>
+            <div class="div-6">55555555555</div>
+
+        
+        </div>
+ 
+    </div>
+    </div> -->
+
+
+
+    <div class="div-1">
+
+        <div class="my-div">
+
+            <div class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe neque modi obcaecati molestiae nesciunt quae odit distinctio iste suscipit earum exercitationem ipsum facilis, magni, reiciendis in vero inventore ipsam quia laborum beatae illo cum accusamus. Vel quibusdam corrupti, tempora, iure dolorem ratione asperiores ipsa aliquam amet perferendis temporibus sint ipsum.
+
+            </div>
+
+            <div class="image">
+                <img src="20150429160658-website-traffic.jpeg" height="400px" width="100%">
+            </div>
+
+            
+            <!-- <div class="div-3">33333333333</div>  
+            <div class="div-3">4444444444</div>
+            <div class="div-3">55555555555</div> -->
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <section  class="featured_cta aos-init aos-animate" >
+        <div  class="media_and_text__inner">
+            <div class="media_and_text__inner__text">
+                <div  class="inner">
+                <div  class="content_container"><h2 >Lorem Ipsum</h2> 
+                <div  class="body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </div>
+</div> 
+<div  class="cta_container">
+    <a   href="#" target="" class="site_button light normal">
+        <span>Load More</span>
+    
+    </a>
+</div></div></div>
+
+
+ <div  class="media_and_text__inner__image mask"
+ style="--mask: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTQyIiBoZWlnaHQ9IjU0MyIgdmlld0JveD0iMCAwIDU0MiA1NDMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNMC4wMzc3NTAyIDU0Mi4zMzhIMjcwLjQ4NkMyNzAuNTg2IDU0Mi4zMzggMjcwLjY4NiA1NDIuMzM4IDI3MC43ODYgNTQyLjMzOEMyNzAuNzg2IDM5Mi44MTMgMTQ5LjU3MyAyNzEuNTkzIDAuMDQzNzYyMiAyNzEuNTkzTDAuMDM3NzUwMiA1NDIuMzM4Wk0yNzAuNzgxIDU0Mi4zMzhDNDIwLjMwNyA1NDIuMzM4IDU0MS41MjQgNDIxLjEyNSA1NDEuNTI0IDI3MS41OTNDMzkxLjk5NCAyNzEuNTkzIDI3MC43ODEgMzkyLjgxMiAyNzAuNzgxIDU0Mi4zMzhaTTAuMDMwNzYxNyAyNzEuNTkzQzE0OS41NjMgMjcxLjU5MyAyNzAuNzc4IDE1MC4zNzYgMjcwLjc3OCAwLjg0NzcxN0MxMjEuMjUgMC44NDc3MTcgMC4wMzA3NjE3IDEyMi4wNjcgMC4wMzA3NjE3IDI3MS41OTNaTTI3MS4wNzYgMC44NDQ3MjdDMjcwLjk3NiAwLjg0NDcyNyAyNzAuODc2IDAuODQ0NzI3IDI3MC43NzYgMC44NDQ3MjdDMjcwLjc3NiAxNTAuMzczIDM5MS45ODkgMjcxLjU5IDU0MS41MTkgMjcxLjU5VjAuODQ0NzI3SDI3MS4wNzZaIiBmaWxsPSJ3aGl0ZSIvPg0KPC9zdmc+DQo=);" 
+ >
+    <img  src="http://esencia.test/app/uploads/2024/04/zebra_crossing.png" alt="Lorem Ipsum" class="">
+      </div>
+      </div>
+</div>
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

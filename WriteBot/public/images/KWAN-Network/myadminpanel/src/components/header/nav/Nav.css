@@ -1,0 +1,84 @@
+.my-nav{
+    /* width: 900px; */
+    display: flex;
+    justify-content: end;
+}
+
+.btn i{
+    font-size: 20px;
+}
+
+/* 
+.dark-mode {
+    background-color: rgb(40, 39, 41);
+  }
+
+ .dark-mode .sidebar{
+    background-color: rgb(61, 53, 68);
+ }
+
+ .dark-mode .header{
+    background-color: rgb(61, 53, 68);
+ }
+
+ .dark-mode .btn{
+    color: white;
+ }
+
+ .dark-mode .my-card{
+    background-color: rgb(81, 71, 91);
+    color: white;
+ }
+ .dark-mode .bar-class{
+    background-color:  rgb(81, 71, 91);
+    color: white;
+ }
+
+.dark-mode .search-btn{
+    background-color:rgb(61, 53, 68);
+   
+}
+
+.dark-mode .search-input{
+    background-color:  rgb(81, 71, 91);
+}
+.dark-mode .my-card-2{
+    background-color: rgb(81, 71, 91);
+    color: white;
+ } */
+
+
+
+ .dark-mode {
+   background-color: rgb(60, 60, 60);
+ }
+
+ .dark-mode .card{
+   background-color: rgb(95, 93, 93);
+ 
+ }
+
+
+ .dark-mode .bar-class{
+   background-color: rgb(95, 93, 93) ;
+ 
+}
+
+.dark-mode .my-card-2{
+   background-color: rgb(95, 93, 93);
+   
+}
+/* 
+.dark-mode i{
+   color: white;
+} */
+
+
+.dark-mode .sidebar{
+   background-color: rgb(17, 16, 17);
+}
+
+.dark-mode .btn i{
+   color:black;
+  
+}

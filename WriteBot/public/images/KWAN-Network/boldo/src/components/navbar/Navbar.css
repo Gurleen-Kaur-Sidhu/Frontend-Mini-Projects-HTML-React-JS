@@ -1,0 +1,36 @@
+.navbar-section {
+  padding-top: 56px;
+  margin: 0 10px;
+}
+
+.navbar-nav {
+  width: 419px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  height: 42px;
+  /* background-color: #0a2640; */
+}
+
+.nav-button {
+  width: 128px;
+  font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.nav-link{
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.nav-button:hover{
+  background-color: #0A2640;
+  color: aliceblue;
+}

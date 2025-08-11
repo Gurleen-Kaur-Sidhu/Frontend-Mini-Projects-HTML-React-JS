@@ -1,0 +1,88 @@
+.sevenpage{
+    padding-top: 84px;
+    
+
+}
+
+.seven-content1{
+    height: 424px;
+    width: 998px;
+    /* border: 1px solid red; */
+}
+
+.seven-body{
+    width: 298px;
+    height: 424px;
+    
+    /* border: 1px solid blue; */
+}
+
+.seven-para{
+    height: 139px;
+    /* border: 1px solid green; */
+    margin-top: 24px;
+}
+
+.seven-para1{
+    height: 28px;
+    width: 231px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seven-para2{
+    margin-top: 12px;
+    height: 99px;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+   
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.seven-para3{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+   
+    font-family: "Open Sans", sans-serif;
+}
+
+.seven-para4{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+   color: #777777;
+    font-family: "Open Sans", sans-serif;
+}
+
+.seven-para5{
+    height: 32px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.seven-para6{
+    width: 248px;
+}
+
+.seven14 {
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.seven14:hover{
+    background-color: #dfdcdc;
+}
+
+.seven-image:hover{
+    opacity: 0.9;
+}

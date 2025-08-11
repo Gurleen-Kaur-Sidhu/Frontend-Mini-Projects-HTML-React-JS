@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+       
+       h1{
+        margin-top: 50px;
+        text-align: center;
+       }
+        
+
+       .mygrid{   
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+      
+
+       .grid-system{
+        width: 400px;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: auto auto auto;
+       }
+
+       .mydiv{
+        /* height: 50px; */
+        /* width: 100px; */
+        border: 1px solid black;
+        margin: 10px;
+       }
+
+       .grid-system2{
+        width: 400px;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: 1fr 60px;
+       }
+
+       .grid-system3{
+        width: 400px;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+       }
+
+       .grid-system4{
+        width: 400px;
+        border: 1px solid red;
+        display: grid;
+        /* grid-template-columns: repeat(2,60px); */
+        /* grid-template-columns: repeat(2,auto); */
+     
+        grid-template-columns: repeat(auto-fill, 100px);
+
+
+       }
+
+       .grid-system5{
+        width: 1200px;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns:auto auto auto;
+       }
+
+       
+       .mydiv1{
+      
+        border: 1px solid black;
+        margin: 10px;
+        padding: 20px;
+       }
+
+   @media only screen and (max-width: 770px) {
+
+   
+    .grid-system5{
+        display: grid;
+        grid-template-columns:auto;
+       }
+
+
+   }
+
+   .card-body img{
+    object-fit: contain;
+    object-position: center;
+   }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Grid System</h1>
+
+    <div class="mygrid">
+
+    <div class="grid-system">
+
+    <div class="mydiv">1</div>
+    <div class="mydiv">2</div>
+    <div class="mydiv">3</div>
+    <div class="mydiv">4</div>
+    <div class="mydiv">5</div>
+    <div class="mydiv">6</div>
+    <div class="mydiv">7</div>
+    <div class="mydiv">8</div>
+    <div class="mydiv">9</div>
+
+    </div></div>
+
+
+    <h1>Grid System</h1>
+    <div class="mygrid">
+
+        <div class="grid-system2">
+    
+        <div class="mydiv">1</div>
+        <div class="mydiv">2</div>
+        <div class="mydiv">3</div>
+        <div class="mydiv">4</div>
+        <div class="mydiv">5</div>
+        <div class="mydiv">6</div>
+    
+        </div></div>
+
+
+        <h1>Grid System</h1>
+        <div class="mygrid">
+    
+            <div class="grid-system3">
+        
+            <div class="mydiv">1</div>
+            <div class="mydiv">2</div>
+            <div class="mydiv">3</div>
+            <div class="mydiv">4</div>
+            <div class="mydiv">5</div>
+            <div class="mydiv">6</div>
+        
+            </div></div>    
+
+
+            <h1>Grid System</h1>
+            <div class="mygrid">
+        
+                <div class="grid-system4">
+            
+                <div class="mydiv">1</div>
+                <div class="mydiv">2</div>
+                <div class="mydiv">3</div>
+                <div class="mydiv">4</div>
+                <div class="mydiv">5</div>
+                <div class="mydiv">6</div>
+            
+                </div></div>     
+
+
+
+
+           
+                <h1>Grid System</h1>
+                <div class="mygrid">
+            
+                    <div class="grid-system5">
+                
+                    <div class="mydiv1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias magni fugiat tenetur, dolorem sint asperiores odit vitae consectetur ducimus modi earum esse consequuntur.</div>
+                    <div class="mydiv1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odio, voluptate quas beatae sunt doloremque adipisci libero, blanditiis culpa doloribus ad? Animi, quas nemo?</div>
+                    <div class="mydiv1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente ipsam culpa aperiam quam illo at? Excepturi quasi facere id nesciunt illum quidem non!</div>
+                    </div></div>   
+                    
+                    
+                    <h1>Grid System bootstrap</h1>
+                    <div class="container">
+                
+                        <div class="row">
+                    
+                        <div class="col border border-1 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias magni fugiat tenetur, dolorem sint asperiores odit vitae consectetur ducimus modi earum esse consequuntur.</div>
+                        <div class="col border border-1 m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odio, voluptate quas beatae sunt doloremque adipisci libero, blanditiis culpa doloribus ad? Animi, quas nemo?</div>
+                        <div class="col border border-1 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente ipsam culpa aperiam quam illo at? Excepturi quasi facere id nesciunt illum quidem non!</div>
+                        </div></div>   
+                        
+                        
+                        <h1>Grid System bootstrap</h1>
+                        <div class="container">
+                    
+                            <div class="row">
+                        
+                            <div class="col-10 col-md-3 col-lg-3 border border-1 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias magni fugiat tenetur, dolorem sint asperiores odit vitae consectetur ducimus modi earum esse consequuntur.</div>
+                            <div class="col-10 col-md-3 col-lg-3 border border-1 m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odio, voluptate quas beatae sunt doloremque adipisci libero, blanditiis culpa doloribus ad? Animi, quas nemo?</div>
+                            <div class="col-10 col-md-3 col-lg-3 border border-1 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente ipsam culpa aperiam quam illo at? Excepturi quasi facere id nesciunt illum quidem non!</div>
+                            </div></div>       
+
+
+  <h1>Grid System bootstrap</h1>
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-6 col-sm-4 m-3 p-3 border border-1">column1</div>
+                                  <div class="col-6 col-sm-4 m-3 p-3 border border-1">column2</div>
+                              
+                                
+                                  <div class="w-100 d-none d-md-block"></div>
+                              
+                                  <div class="col-6 col-sm-4 m-3 p-3  border border-1">column3</div>
+                                  <div class="col-6 col-sm-4 m-3 p-3 border border-1">column4</div>
+                                </div>
+                              </div>
+
+
+
+
+
+
+
+                              <h1>
+                            grid system
+                              </h1>
+
+                              <div class="row m-5">
+                                <div class="col-sm-5">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <img src="20150429160658-website-traffic.jpeg" height="400px" width="100%">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Special title treatment</h5>
+                                      <p class="card-text">With supporting text below as a natural lead-in to additional Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nobis laborum alias consectetur dolorem, numquam deserunt, unde fugiat minima, excepturi natus qui quo non!>With supporting text below as a natural lead-in to additional Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nobis laborum alias consectetur dolorem, numquam deserunt, unde fugiat minima, excepturi natus qui quo non</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+    
+        </div></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

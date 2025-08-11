@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .animate-on-scroll {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s, transform 0.5s;
+    }
+    .animate-on-scroll.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .box {
+      height: 200px;
+      margin: 100px auto;
+      width: 80%;
+      background-color: #3498db;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="box animate-on-scroll">Animated Box 1</div>
+<div class="box animate-on-scroll">Animated Box 2</div>
+<div class="box animate-on-scroll">Animated Box 3</div>
+<script>
+    const elements = document.querySelectorAll('.animate-on-scroll');
+
+function checkScroll() {
+    console.log("window load")
+  elements.forEach((element) => {
+    const rect = element.getBoundingClientRect();
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+    if (rect.top <= windowHeight && rect.bottom >= 0) {
+      element.classList.add('active');
+    } else {
+      element.classList.remove('active');
+    }
+  });
+}
+
+window.addEventListener('scroll', checkScroll);
+window.addEventListener('load', checkScroll); 
+</script>
+</body>
+</html>

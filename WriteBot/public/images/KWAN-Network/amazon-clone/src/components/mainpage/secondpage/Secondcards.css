@@ -1,0 +1,24 @@
+
+.product-section {
+    overflow-x: auto;
+}
+
+
+@media (max-width: 768px) { 
+    .card2 {
+        height: 300px; 
+        overflow: hidden; 
+    }
+   
+    .card3 {
+        height: 180px; 
+        overflow: hidden; 
+    }
+   
+    .card2-para {
+        font-size: 10px;
+        overflow: hidden; 
+        white-space: nowrap; 
+        text-overflow: ellipsis; 
+    }
+}

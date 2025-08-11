@@ -1,0 +1,88 @@
+.team-section {
+    margin-bottom: 10px;
+    position: fixed;
+    top: 140px;
+    margin-right: 20px;
+    height: 100%;
+    margin-left: 320px;
+
+}
+
+.toggle-sidebar .team-section {
+    margin-left: 50px;
+    width: 1300px;
+}
+
+
+.title {
+    margin-bottom: 10px;
+    position: fixed;
+    top: 70px;
+    margin-left: 320px;
+}
+
+.toggle-sidebar .title {
+    margin-left: 20px;
+}
+
+
+.title h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#icon {
+    font-size: 17px;
+}
+
+.my-table {
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    width: 1200px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.dark-mode .my-table{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+.toggle-sidebar .my-table {
+    width: 1400px;
+}
+
+.table-row {
+    border: 4px solid white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.table-head{
+    border: 4px solid white;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-des{
+    padding: 15px;
+    text-align: center;
+}
+
+.table-row:hover {
+    background-color: #f2f2f2;
+    color: blueviolet;
+}
+
+.toggle-sidebar .pagination {
+    margin-left: 1400px;
+}
+
+.dark-mode .table-row:hover {
+    background-color: #f2f2f2;
+    color: black;
+}

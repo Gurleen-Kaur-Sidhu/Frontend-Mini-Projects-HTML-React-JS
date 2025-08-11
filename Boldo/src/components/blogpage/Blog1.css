@@ -1,0 +1,13 @@
+.blog-section{
+    background-color: #0A2640;
+    width: 1400px;
+    height: 824px;
+    margin: 0;
+    padding: 0;
+}
+
+.blog2{
+    height: 183px ;
+    width: 888px;
+    border: 1px solid red;
+}

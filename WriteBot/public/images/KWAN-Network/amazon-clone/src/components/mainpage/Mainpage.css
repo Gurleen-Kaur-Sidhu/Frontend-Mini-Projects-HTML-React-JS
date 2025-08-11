@@ -1,0 +1,56 @@
+
+.main-nav {
+    height: 50px; 
+    width: 100%;
+    background-color: #283341;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    
+}
+
+.main-nav-a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.div-a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 9px;
+}
+
+.nav-a {
+    color: white;
+    text-decoration: none; 
+}
+
+.great-sale {
+    height: 90%;
+    margin-right: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.great-sale div {
+    text-align: center;
+}
+
+.main-body {
+    height: auto; 
+    width: 100%;
+    position: relative; 
+}
+
+.carousel-inner img {
+    height: 87vh; 
+ 
+    object-fit: cover; 
+}
+

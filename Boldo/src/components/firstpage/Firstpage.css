@@ -1,0 +1,160 @@
+
+
+.mainpage-section{
+    margin-top: 64px;
+}
+
+.main-content{
+    width: 706.14px;
+    height: 423px ;
+   
+    display: flex;
+    align-items: center;
+}
+
+.img-div{
+    width: 493.86px;
+    height: 423px;
+   
+}
+
+.main-content2{
+    width: 567px;
+    height: 310px;
+  
+    font-family: "Manrope", sans-serif;
+}
+
+.main-content3{
+  
+    height: 210px;
+   
+}
+
+.main-content4{
+    height: 40px;
+}
+
+.main-content5{
+    height: 60px;
+   
+}
+
+.main-content6 h2{
+    height: 138px;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 72px;
+    
+   
+    
+}
+
+.main-content7{
+    
+    height: 56;
+}
+
+.main-content7 p{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+}
+.main-content8{
+    height: 16px;
+}
+
+.main-content9{
+    width: 458px;
+    height: 60px;
+ 
+}
+
+.button2{
+    width: 247px;
+    height: 60px;
+    background-color: #65E4A3;
+    border: #69E6A6;
+    font-family: "Open Sans", sans-serif;
+}
+
+.button2:hover{
+    background-color: #3e8c63;
+
+}
+
+.button3{
+    width: 187px;
+    height: 60px;
+    background-color: #0A2640;
+    font-family: "Open Sans", sans-serif;
+}
+
+.button3:hover{
+    background-color:#0a2133 ;
+}
+
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+.logos{
+    overflow: hidden;
+    padding: 20px 0;
+    white-space: nowrap;
+    position: relative;
+    
+    
+    
+}
+
+.logos:hover .logos-slide{
+   animation-play-state: paused;
+}
+
+.logos-slide{
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.logo-slide img{
+    height: 40px;
+    
+
+}
+/* 
+ 
+@media (max-width: 768px) {
+   
+    .main-content6 h2 {
+        font-size: 28px; 
+    }
+
+    .main-content7 p {
+        font-size: 10px; 
+    }
+
+    .button2,
+    .button3 {
+        max-width: 100%; 
+        margin-bottom: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content6 h2 {
+        font-size: 28px; 
+    }
+
+    .main-content7 p {
+        font-size: 10px; 
+    }
+}  */

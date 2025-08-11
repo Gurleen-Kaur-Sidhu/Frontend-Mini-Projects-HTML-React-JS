@@ -1,0 +1,37 @@
+.linechart-section{
+    margin-bottom: 10px;
+    position: fixed;
+    top:140px;
+    margin-right: 20px;
+    height: 100%;
+    margin-left: 320px;
+    
+}
+
+.toggle-sidebar .linechart-section{
+    margin-left: 60px;
+    width: 1300px;
+}
+
+
+.title{
+    margin-bottom: 10px;
+    position: fixed;
+    top:70px;
+    margin-left: 320px;
+}
+
+.toggle-sidebar .title{
+    margin-left: 20px;
+}
+
+
+.title h1{
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#icon{
+    font-size: 17px;
+}

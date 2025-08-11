@@ -1,0 +1,137 @@
+.dashboard-section{
+    margin-bottom: 10px;
+    position: fixed;
+    top:140px;
+    margin-right: 20px;
+    height: 100%;
+    margin-left: 320px;
+   
+}
+
+
+.dark-mode h1{
+  color:aliceblue
+}
+
+.dark-mode .breadcrumb-item{
+  color: aliceblue;
+}
+
+
+
+
+
+.toggle-sidebar .dashboard-section{
+  margin-left:5px;
+}
+
+  .bar-class{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+.toggle-sidebar .bar-class{
+   width: 730px;
+   background-color: aliceblue;
+  border-radius: 10px;
+
+  margin-left:10px;
+
+}
+
+.toggle-sidebar #my-card{
+  width: 500px;
+ 
+  background-color: aliceblue;
+  border-radius: 10px;
+
+  margin-left: 15px;
+
+}
+
+#my-card{
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+  
+  
+}
+.scrollable-content{
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+.title{
+  margin-bottom: 10px;
+  position: fixed;
+  top:70px;
+  margin-left: 320px;
+}
+
+.toggle-sidebar .title{
+  margin-left: 20px;
+}
+.title h1{
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+#icon{
+  font-size: 17px;
+}
+
+.my-card-2{
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 15px;
+}
+ 
+
+@media (max-width: 768px) {
+  .dashboard-section {
+      margin-left: 0;
+      margin-right: 0;
+      height: auto; 
+      position: relative; 
+  }
+
+  .title {
+      margin-left: 0;
+  }
+
+  .scrollable-content {
+      max-height: 400px; 
+  }
+
+  .my-card-2 {
+      margin-bottom: 10px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .title h1 {
+      font-size: 20px; 
+  }
+
+  .bar-class,
+  .my-card-2 {
+      padding: 5px; 
+  }
+
+  .icon-progress {
+      flex-direction: column; 
+      align-items: center; 
+  }
+} 
+
+
+

@@ -1,0 +1,99 @@
+.footerpage{
+    padding-top: 84px;
+}
+
+.footer-page{
+    width: 1400px;
+    height: 474px;
+    /* border: 1px solid red; */
+    /* background-color: #0A2640; */
+    /* padding-top: 96px; */
+}
+
+.footer1{
+    height:250px ;
+    width: 300px;
+    /* border: 1px solid blue; */
+}
+
+.footer2{
+    height: 240px ;
+    width: 642px;
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.footer3{
+    height: 41px;
+    width: 156px;
+    /* border: 1px solid orange; */
+}
+
+.footer4{
+    margin-top: 40px;
+    width: 300px;
+    height: 84px;
+    /* border: 1px solid red; */
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #777777;
+   
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.footer5{
+    margin-top: 50px;
+
+    height: 28px;
+    width: 250px;
+    /* border: 1px solid yellow; */
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #777777;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer6{
+    width: 250px;
+    height: 100%;
+    /* border: 1px solid aqua; */
+}
+
+.footer7{
+    height: 36px;
+    width: 150px;
+    /* border: 1px solid blueviolet; */
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+   
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.footer8{
+    margin-top: 30px;
+    height: 172px;
+    width: 150px;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #777777;
+    
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer-btn{
+    height: 30px ;
+    width: 72px;
+    background-color: #65E4A3;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0;
+    border: #65E4A3;
+    font-family: "Open Sans", sans-serif;
+}

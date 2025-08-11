@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h5{
+  font-family: "Merriweather", serif;
+  font-weight: 900 !important;
+  font-size: 13px !important;
+  margin-bottom: 5px !important;
+  color: #bf3b53 !important;
+
+}
+
+h6{
+font-family: "Merriweather", serif;
+font-weight: 900 !important;
+font-size: 12px;
+margin-bottom: 5px !important;
+color: #491607 !important;
+}
+
+.nav-link{
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 14px !important;
+  padding: 5px 30px;
+}
+
+h1{
+  font-family: "Young Serif", serif;
+font-weight: 900 !important;
+font-size: 40px;
+line-height: 55px;
+word-spacing: 5px;
+margin-bottom: 5px !important;
+color: #491607 !important;
+text-align: center;
+}
+
+h4 {
+  font-family: "Cedarville Cursive", serif;
+  font-size: 55px;
+  font-weight: 800 !important;
+  color: #A26557 !important;
+  text-align: center;
+}
+
+h2{
+  font-family: "Young Serif", serif;
+font-weight: 900 !important;
+font-size: 30px;
+line-height: 50px;
+word-spacing: 5px;
+margin-bottom: 5px !important;
+color: #491607 !important;
+text-align: center;
+}

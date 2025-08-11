@@ -1,0 +1,67 @@
+.productpage-section {
+  background-color: #f7f2ee !important;
+}
+
+.modal-content {
+  background: antiquewhite;
+}
+
+.image-nav-btn {
+  font-size: 40px;
+  color: #6e2914;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.image-nav-btn:hover {
+  color: #420f00;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.cake-modal-image {
+    border-radius: 12px;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-modal-info h5 {
+  font-size: 20px !important;
+}
+.cake-modal-info h6 {
+  font-size: 20px !important;
+}
+
+.modal-footer button{
+    font-family: "Young Serif", serif !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+
+}
+
+
+.productspage-div {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    row-gap: 20px;
+  }
+  
+  .productspage-div h4 {
+    font-size: 24px !important;
+  }

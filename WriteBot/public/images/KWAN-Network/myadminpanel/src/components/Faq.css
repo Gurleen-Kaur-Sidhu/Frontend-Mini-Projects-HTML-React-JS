@@ -1,0 +1,88 @@
+.faq-section{
+    margin-bottom: 10px;
+    position: fixed;
+    top:140px;
+    margin-right: 20px;
+    height: 100%;
+    margin-left: 320px;
+    
+}
+
+.toggle-sidebar .faq-section{
+    margin-left: 180px;
+    width: 1300px;
+}
+
+
+.title{
+    margin-bottom: 10px;
+    position: fixed;
+    top:70px;
+    margin-left: 320px;
+}
+
+.toggle-sidebar .title{
+    margin-left: 20px;
+}
+
+
+.title h1{
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#icon{
+    font-size: 17px;
+}
+
+
+
+.accordion-body{
+    background-color: rgb(246, 243, 248);
+    border: 3px solid blueviolet;
+    margin-bottom: 15px;
+   
+}
+
+.accordion-button{
+    background-color:blueviolet;
+    border: 3px solid blueviolet;
+    color: aliceblue;
+   
+}
+
+.accordion-button:hover{
+    background-color:blueviolet;
+    border: 3px solid blueviolet;
+    color: aliceblue;
+   
+}
+
+
+.dark-mode .accordion-body{
+    background-color: rgb(16, 15, 16);
+    color: aliceblue;
+    border: 3px solid black;
+   
+}
+
+
+.dark-mode .accordion-button{
+    background-color: rgb(16, 15, 16);
+    color: aliceblue;
+    border: 3px solid black;
+   
+}
+
+
+.dark-mode .accordion-item{
+    background-color:rgb(60, 60, 60);
+   
+   
+}
+
+
+.accordion-item{
+    background-color: rgb(181, 181, 237)
+}

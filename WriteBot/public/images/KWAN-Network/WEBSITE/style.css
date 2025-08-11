@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(78, 20, 20);
+}
+
+.list{
+    color: aliceblue;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anchor{
+    color: aliceblue;
+
+}
+
+.main-page{
+    height: calc(100vh - 70px);
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    
+}
+
+.main2{
+   height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(251, 238, 223);
+}
+
+.heading1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.para1{
+
+    width: 900px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    color: rgb(78, 20, 20);
+}
+
+.button1{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: none;
+    
+}
+
+.button-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button1 i{
+    font-size: 40px;
+    color: brown;
+}
+
+.main4{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3{
+    height: 800px;
+   width: 1100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+ }
+
+ .card{
+    width: 350px;
+    height: 550px ;
+    position: relative;
+    /* border: 1px solid blue; */
+ }
+
+ .main5{
+    display: flex;
+    height: 550px;
+    /* border: 1px solid blue; */
+ }
+
+ .about-div{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+ }
+
+ 
+ .about-div2{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(78, 20, 20);
+    color: aliceblue;
+ }
+
+ .about-div3{
+    width: 60%;
+    text-align: center;
+ }
+
+ .para3{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+ }
+
+ .main6{
+    margin-top: 70px;
+    display: flex;
+    height: 600px;
+    /* border: 1px solid blue; */
+ }
+
+ .about-div12{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(131, 84, 84);
+    color: aliceblue;
+ }
+
+ .main7{
+    margin-top: 40px;
+
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .main8{
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.button2{
+    border: none;
+    margin-left: 30px;
+}
+ 
+.button2 i{
+    font-size: 50px;
+    color: brown;
+    background-color: white;
+}
+
+.head5{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.main9{
+    margin-top: 40px;
+
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(78, 20, 20);
+    justify-content: space-around;
+}
+
+.footer1{
+    /* border: 1px solid white; */
+    width: 200px;
+    color: aliceblue;
+    font-size: 24px;
+
+}
+
+
+.about-div13{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(154, 132, 132);
+    color: aliceblue;
+ }
+
+ 
+.about-div14{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(99, 142, 117);
+    color: aliceblue;
+ }
+
+
+ .card-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    /* border: 1px solid red; */
+    top:-25%;
+    left: 30px;
+
+ }
+
+ .about-div34{
+    
+    width: 60%;
+    text-align: center;
+ }
+
+ .my-heading{
+    margin-top: 120px;
+ }
+
+ .my-img{
+    border-radius: 50%;
+ }

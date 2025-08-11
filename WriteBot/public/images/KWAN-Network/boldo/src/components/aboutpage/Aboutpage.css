@@ -1,0 +1,55 @@
+.about-section{
+    background-color: #0A2640;
+    /* width: 1400px; */
+    height: 615px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.aboutpage-1{
+    height: 279px;
+    width: 842px;
+    /* border: 1px solid red; */
+}
+
+.aboutpage-2{
+    height: 183px;
+    width: 842px;
+    /* border: 1px solid white; */
+    text-align: center;
+
+}
+
+.aboutpage-3{
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+    color: #F1F1F1;
+    font-family: "Open Sans", sans-serif;
+}
+
+.aboutpage-4{
+    font-family: "Manrope", sans-serif;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.aboutpage-5{
+    height: 64px;
+    width: 745.37px;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    color: #F1F1F1;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+

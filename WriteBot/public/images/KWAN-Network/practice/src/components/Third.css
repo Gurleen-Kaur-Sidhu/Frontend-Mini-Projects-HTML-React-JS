@@ -1,0 +1,47 @@
+
+.diamond-visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hand-container {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .hand-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .diamond {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/path/to/diamond.png'); /* Diamond image */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slider {
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .skin-tone-selector button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

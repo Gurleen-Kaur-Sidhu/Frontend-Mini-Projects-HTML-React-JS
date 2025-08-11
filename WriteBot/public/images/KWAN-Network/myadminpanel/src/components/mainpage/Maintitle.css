@@ -1,0 +1,16 @@
+.title{
+    margin-bottom: 10px;
+    position: fixed;
+    top:70px;
+}
+
+
+.title h1{
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#icon{
+    font-size: 17px;
+}

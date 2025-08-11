@@ -1,0 +1,43 @@
+.five3card{
+    height: 100%;
+}
+
+.five4card{
+    height: 45px;
+}
+.card .myimg5{
+    height: auto;
+    max-width: 80%;
+}
+@media (max-width: 768px) {
+  
+    .five2card{
+        height: 220px;
+    }
+    .five3card{
+        height: 250px;
+    }
+    .five4card{
+        height: 25px;
+    }
+    .myimg5{
+        width: 70%;
+        height: 0px;
+    }
+    .five4card{
+        font-size: 13px;
+    }
+
+}
+@media (min-width: 400px) and (max-width: 1199.98px) { 
+    .five4card{
+        font-size: 15px;
+    }
+    .myimg5{
+        width: 40%;
+        height: 0px;
+    }
+ }
+
+
+

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+
+.logo-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item{
+    padding: 20px;
+  
+}
+.nav-link{
+    color: black;
+}
+
+.buttons .btn{
+    padding: 8px;
+    border: 2px solid green;
+    color: green;
+    border-radius: 5px;
+
+}
+.buttons .btn:hover{
+  color: white;
+  background-color: green;
+
+}

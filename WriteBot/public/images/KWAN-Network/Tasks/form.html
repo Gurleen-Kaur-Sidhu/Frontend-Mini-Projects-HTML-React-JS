@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+      }
+      .form-section {
+        width: 100%;
+        height: 100%;
+      }
+
+      .form-div {
+        border: 1px solid rgb(205, 205, 205);
+        padding: 40px;
+        margin: 20px auto;
+        width: 50%;
+      }
+
+      .form-div p {
+        font-size: 18px;
+      }
+
+      form {
+        width: 100%;
+        border-top: 1px solid black;
+        padding: 30px 0px;
+      }
+
+      form h2 {
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .name-div {
+        width: 100%;
+        margin-top: 35px;
+        padding: 10px;
+      }
+
+      .name-input {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+      }
+
+      input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 10px 0px;
+        padding: 15px;
+        font-size: 16px;
+        border: 1px solid #b8bdc9;
+      }
+
+      .name-label {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 33%;
+      }
+
+      label {
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+      }
+      /* 
+      .name-div label {
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+      } */
+
+      .name-label label {
+        font-size: 13px;
+        color: rgb(100, 100, 100);
+      }
+
+      .ep-div {
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .email-div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* .email-div label {
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+      } */
+
+      .email-div input {
+        width: 100%;
+      }
+
+      .address-div {
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      .address-div .label-class {
+        font-size: 13px;
+        color: rgb(100, 100, 100);
+      }
+
+      .address-flex {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+      }
+
+      .address-flex input {
+        width: 100%;
+      }
+
+      .flex-2 {
+        width: 50%;
+      }
+
+      textarea {
+        margin: 10px 0px;
+        margin-bottom: 20px;
+      }
+
+      .textarea-div {
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      .submit-sec {
+        margin-top: 40px;
+        text-align: center;
+      }
+
+      .submit {
+        height: 40px !important;
+        width: 140px !important;
+        font-size: 20px;
+        color: aliceblue;
+        background-color: rgb(13, 141, 13);
+        border: none;
+      }
+
+      textarea {
+        width: 100%;
+        border-radius: 5px;
+        margin: 10px 0px;
+        padding: 15px;
+        font-size: 16px;
+        border: 1px solid #b8bdc9;
+      }
+
+      input:hover {
+        border: 1px solid blue;
+      }
+
+      .name-div:hover,
+      .ep-div:hover,
+      .address-div:hover,
+      .textarea-div:hover {
+        background-color: rgb(227, 227, 247);
+      }
+
+      input:focus-visible {
+        outline: 2px solid rgb(67, 67, 245);
+        border-radius: 3px;
+      }
+
+      textarea:focus-visible {
+        outline: 2px solid rgb(67, 67, 245);
+        border-radius: 3px;
+      }
+
+      @media (max-width: 769px) {
+        .form-div {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 426px) {
+        .name-input,
+        .ep-div,
+        .address-flex {
+          flex-direction: column;
+        }
+        .name-label,
+        .email-div,
+        .flex-2 {
+          width: 100%;
+        }
+
+        .form-div {
+          padding: 20px;
+        }
+
+        h1{
+            font-size: 25px;
+        }
+      }
+
+      @media (max-width: 376px) {
+        .form-div {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-section">
+      <div class="form-div">
+        <h1>Email Sign Up Form</h1>
+        <p>
+          We would love to be in touch with you! Please sign up to receive
+          emails from us!
+        </p>
+
+        <form>
+          <h2>Please complete all information below:</h2>
+
+          <div class="name-div">
+            <label for="name">Name</label>
+            <div class="name-input">
+              <div class="name-label">
+                <input type="text" id="name1" />
+                <label for="name1">Mr./Mrs./Ms.</label>
+              </div>
+              <div class="name-label">
+                <input type="text" id="name2" />
+                <label for="name2">First Name</label>
+              </div>
+              <div class="name-label">
+                <input type="text" id="name3" />
+                <label for="name3">Last Name</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="ep-div">
+            <div class="email-div">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" />
+            </div>
+
+            <div class="email-div">
+              <label for="tel">Phone</label>
+              <input id="tel" type="tel" />
+            </div>
+          </div>
+
+          <div class="address-div">
+            <label for="address">Address</label>
+
+            <input type="text" id="address1" />
+            <label for="address1" class="label-class">Street Address 1</label>
+
+            <input type="text" id="address2" />
+            <label for="address2" class="label-class">Street Address 2</label>
+
+            <div class="address-flex">
+              <div class="flex-2">
+                <input type="text" id="address3" />
+                <label for="address3" class="label-class">City</label>
+              </div>
+              <div class="flex-2">
+                <input type="text" id="address4" />
+                <label for="address4" class="label-class">State/Province</label>
+              </div>
+            </div>
+
+            <input type="text" id="address5" />
+            <label for="address5" class="label-class">Postal/Zip Code</label>
+          </div>
+
+          <div class="textarea-div">
+            <label for="textarea">Comments, Questions, or Suggestions</label>
+            <textarea rows="10" id="textarea"></textarea>
+          </div>
+
+          <hr />
+
+          <div class="submit-sec">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
