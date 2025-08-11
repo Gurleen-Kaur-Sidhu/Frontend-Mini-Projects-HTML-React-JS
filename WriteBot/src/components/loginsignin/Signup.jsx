@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import { Button, Alert } from "react-bootstrap";
-import "./login.css";
+// import "./login.css";
 import axios from "axios";
 import { LinearGradient } from 'react-text-gradients';
 import { Link, useNavigate } from "react-router-dom";
