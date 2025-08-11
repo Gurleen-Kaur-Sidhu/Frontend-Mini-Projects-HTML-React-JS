@@ -1,6 +1,6 @@
 ## My Design Projects
 
-Here are my design projects:
+Here are some of my design projects:
 
 1. Rises-[HTML] — [Show Link](https://frontend-mini-projects-html-react-j-gamma.vercel.app/)
 2. WriteBot [React] — [Show Link](https://frontend-mini-projects-html-react-j-rho.vercel.app/)
