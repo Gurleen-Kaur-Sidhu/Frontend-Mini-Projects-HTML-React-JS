@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --blue: #0732ef;
+  --greyish: #f8f6f3;
+  --font: #0764f1;
+  --lightblue: #bcc5f2;
+}
+
+* {
+  font-family: "Geologica", sans-serif;
+}
+
+li a,
+nav a {
+  color: var(--font);
+}
+
+li svg {
+  color: var(--font);
+}
+
+nav,
+.section1 {
+  background-color: var(--greyish);
+}
+
+h1 {
+    font-size: 60px !important;
+    line-height: 70px;
+    font-weight: 600 !important;
+    color: var(--blue);
+}
+
+h4 {
+  font-size: 24px !important;
+  line-height: 36px;
+  font-weight: 500 !important;
+  color: var(--blue);
+}
+
+p {
+  color: var(--blue);
+}
+
+button {
+  color: var(--blue) !important;
+  border: 2px solid var(--blue);
+}
+
+button:hover {
+  color: white !important;
+  background-color: var(--blue);
+}
+
+.Strategies-div {
+  border: 2px solid var(--blue);
+  padding: 10px;
+  border-radius: 10px;
+
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+
+.Strategies-div:hover {
+  top: -15px;
+}
+
+
+.section3 .Strategies-div {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+}
+button:focus {
+  outline: none !important;
+}
+
+.section2 {
+  background-color: var(--lightblue);
+}
+
+.section3 {
+  background-color: var(--blue);
+}
+
+.section4 {
+  background-color: var(--blue);
+}
+
+video {
+  max-width: 65% !important;
+}
+
+.services-box1 {
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.services-box2 {
+  margin-right: 300px;
+  margin-left: 100px;
+}
+
+.Strategies-div5 {
+  padding: 10px;
+}
+
+input,
+textarea {
+  border: 1px solid rgb(201, 201, 215) !important;
+}
+
+i {
+  height: 25px;
+  width: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.alert {
+  color: red;
+}
+
+
+.alert-2 {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #d2d2dc;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+
+.card .card-body {
+  padding: 1rem 1rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+#testi p {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+}
+
+#testi h6 {
+  color: var(--blue);
+}
+
+#testi h4 {
+  line-height: 0.2 !important;
+}
+#testi .profile {
+  margin-top: 16px;
+  margin-left: 11px;
+}
+
+#testi .profile-pic {
+  width: 58px;
+}
+
+#testi .cust-name {
+  font-size: 18px;
+}
+
+#testi .cust-profession {
+  font-size: 10px;
+}
+
+.items {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.slick-slide {
+  margin: 10px;
+}
+/* 
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+  
+  }
+
+  to {
+    translate: 0 0;
+   
+  }
+}
+
+video{
+  animation-duration: 3s;
+  animation-name: slide-in;
+} */
+
+@media(max-width: 1024px){
+  .flex-div-2{
+      flex-direction: column;
+  }
+  .services-box1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.services-box2 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.section1 svg{
+  margin-top: 15px !important;
+  width: 100%;
+}
+
+}
+
+@media(max-width: 768px){
+    .flex-div{
+        flex-direction: column;
+    }
+
+    .section1 svg{
+        margin-top: 15px !important;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    iframe{
+        margin-top: 15px;
+    }
+
+    .section4 svg{
+        height: 50px;
+    }
+}
+
+
+@media(max-width: 570px){
+h1 {
+    font-size: 38px !important;
+    line-height: 48px;
+  
+}
+
+}
+
+.template-demo{
+    height: 150px;
+}
+
+/* .boost-bus{
+
+  transform: translateY(100px);
+  transition: opacity 2s, transform 2s;
+
+ } */
+
+/* 
+.boost-bus.animate{
+
+  transform: translateY(0);
+}
+
+.contactpage{
+  transform: translateY(200px);
+  transition: opacity 2s, transform 2s;
+}
+.contactpage.animate{
+
+  transform: translateY(0);
+} */
