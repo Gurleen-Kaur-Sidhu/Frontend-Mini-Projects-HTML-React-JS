@@ -353,7 +353,6 @@ span.navbar-toggler-icon {
   object-fit: cover;
 }
 
-
 @media (max-width: 1024px) {
   .fifth-sec4 h2 {
     font-size: 45px;
@@ -530,4 +529,19 @@ span.navbar-toggler-icon {
     column-gap: 10px;
     margin-bottom: 10px;
   }
+}
+
+.mainpage input::placeholder {
+  color: #ffffff !important; /* Your desired color */
+  opacity: 1; /* Ensures the color is not faded */
+}
+
+.link-tag:hover {
+  font-size: 16px;
+  color: rgb(23, 172, 255) !important;
+  font-weight: 500;
+}
+
+.list-group-item {
+  cursor: pointer;
 }

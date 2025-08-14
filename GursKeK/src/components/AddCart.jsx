@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
 import './Product.css'
+import Footer from "./Footer";
+import TopNav from "./TopNav";
 
 const AddCart = () => {
   const cartItems = [
@@ -36,6 +38,8 @@ const AddCart = () => {
   };
 
   return (
+   <>
+       <TopNav></TopNav>
     <section className="cartpage-section">
       <div className="fifth-section">
         <Container>
@@ -70,6 +74,8 @@ const AddCart = () => {
         </Container>
       </div>
     </section>
+    <Footer></Footer>
+    </>
   );
 };
 

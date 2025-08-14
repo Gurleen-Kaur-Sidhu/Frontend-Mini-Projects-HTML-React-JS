@@ -272,13 +272,12 @@
 }
 
 .fifth-products-div {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 10px;
 
-    align-items: center;
-  }
-
+  align-items: center;
+}
 
 @media (max-width: 1200px) {
   .third-section-button {
@@ -323,6 +322,9 @@
     padding: 0px;
   }
 
+  .productspage-div {
+    grid-template-columns: repeat(3, auto) !important;
+  }
   /* .fifth-section button {
     width: 100%;
   } */
@@ -367,8 +369,12 @@
     margin: 0px 20px;
   }
 
-  .third-section-div {
-    margin: 40px 0px;
+  .productspage-div {
+    grid-template-columns: repeat(2, auto) !important;
+  }
+
+  .fifth-section .cake-card {
+    margin: 0px !important;
   }
 }
 
@@ -459,6 +465,10 @@
     line-height: 29px;
   }
 
+  .productspage-div {
+    grid-template-columns: repeat(1, auto) !important;
+  }
+
   .third-section-div {
     margin: 20px 0px;
   }
@@ -496,9 +506,8 @@
 
     align-items: center;
   }
-  .cake-card{
-    margin-right : 0px !important;
-    margin-left : 0px !important;
-
+  .cake-card {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
   }
 }

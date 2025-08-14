@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Container, Modal, Button } from "react-bootstrap";
 import './Product.css'
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import TopNav from "./TopNav";
 const Product = () => {
   const cakes = [
     {
@@ -124,6 +126,8 @@ const Product = () => {
   };
 
   return (
+    <>
+    <TopNav></TopNav>
     <section className="productpage-section">
       <div className="fifth-section">
         <Container>
@@ -145,7 +149,7 @@ const Product = () => {
                   <h6 className="mt-2 mb-0">{cake.name}</h6>
                   <p className="text-center py-1 m-0">{cake.description}</p>
                   <h4>{cake.price}</h4>
-                 <Link to='/cart' className="text-decoration-none"> <button className="w-100 py-1">ADD TO CART</button></Link>
+                 <button className="w-100 py-1">ADD TO CART</button>
                 </div>
               ))}
             </div>
@@ -215,6 +219,9 @@ const Product = () => {
         </Modal>
       </div>
     </section>
+
+    <Footer></Footer>
+    </>
   );
 };
 

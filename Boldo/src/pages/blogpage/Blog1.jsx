@@ -1,6 +1,6 @@
 import React from 'react'
 import './Blog1.css'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../../components/navbar/Navbar'
 
 const Blog1 = () => {
   return (
