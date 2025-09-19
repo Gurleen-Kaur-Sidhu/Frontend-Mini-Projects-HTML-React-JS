@@ -112,29 +112,29 @@ const Section3 = () => {
     <Slider {...settings2}>
 
       <div className="slider-element">
-        <img src="https://writebot-react.themetags.net/img/brand-icon-1.png"></img>
+        <img src="images/brand-icon-12.png"></img>
       </div>
       <div className="slider-element">
-      <img src="https://writebot-react.themetags.net/img/brand-icon-12.png"></img>
+      <img src="images/brand-icon-3.png"></img>
 
       </div>
       
       <div className="slider-element">
-      <img src="https://writebot-react.themetags.net/img/brand-icon-6.png"></img>
+      <img src="images/brand-icon-6.png"></img>
 
       </div>
       
       <div className="slider-element">
-      <img src="https://writebot-react.themetags.net/img/brand-icon-3.png"></img>
+      <img src="images/brand-icon-12.png"></img>
 
       </div>
       <div className="slider-element">
-      <img src="https://writebot-react.themetags.net/img/brand-icon-12.png"></img>
+      <img src="images/brand-icon-1.png"></img>
 
       </div>
 
       <div className="slider-element">
-      <img src="https://writebot-react.themetags.net/img/brand-icon-6.png"></img>
+      <img src="images/brand-icon-6.png"></img>
 
       </div>
       
